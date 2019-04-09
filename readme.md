@@ -69,3 +69,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+#How To Install
+
+git clone https://github.com/sofiesafitri/StokBarang
+cd StokBarang
+composer install
+php artisan migrate
+sebelum migrate pastikan sudah menyetting file .env untuk db anda
